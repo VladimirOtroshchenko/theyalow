@@ -1,4 +1,4 @@
-/* сброс стилей браузера */
+/* reset browser styles */
 * {
     margin: 0;
 	padding: 0;
@@ -6,43 +6,44 @@
 	font-size: 100%;
 	vertical-align: baseline;
 }
-/* конец сброса стилей браузера */
+/* reset browser styles */
 
 * {
 	width: 1300px;
 }
 body {
-	background: url(assets/bg1.png) no-repeat;
 }
 header {
+	background: url(assets/bg1.png);
+	width: 1300px;
+	height: 566px;
 	display: flex;
 }
 .logo {
-	width: 318px;
-	position: relative;
-	left: 139px;
-	top: 27px;
+	width: 319px;
+	height: 87px;
+	display: flex;
+	flex-direction: row;
 
 }
 .logoimg1 {
-	height: 85px;
-	width: 85px;
-	z-index: 5;
-	left: 139px;
-	top: 127px;
+	height: 84px;
+	width: 84px;
+	z-index: 10;
+	left: 106px;
 	
 }
 .logoimg2 {
 	position: relative;
 	height: 80px;
-	width: 79px;
+	width: 80px;
 	z-index: 2;
-	left: -86px;
-	top: -3px;
+	left: -82px;
 }
 .logo h1 {
+	position: relative;
 	color: white;
-	font-size: 2em;
+	font-size: 30px;
 	width: 225px;
 	height: 30px;
 }
@@ -64,27 +65,65 @@ nav ul {
 	flex-grow: 1;
 	width: 454px;
 }
-nav img {
-	height: 11px;
-	width: 11px;
+nav li img {
+	width: 25px;
+	height: 20px;
 }
-.slogan h1 {
+nav li {
+	font-size: 14px;
+}
+center {
 	display: flex;
-	width: 392px;
-	height: 121px;
-	position: absolute;
-	top: 500px;
+	flex-direction: row;
+	flex-grow: 1;
+	justify-content: space-between;
+	height: 487px;
 }
-main {
-
-}
-section {
-	background: url(assets/centrbg.png);
-}
-header h1 {
+.player {
 	display: flex;
 }
 .player img {
 	height: 327px;
 	width: 549px;
+}
+main {
+	display: flex;
+}
+section {
+	background: url(assets/centrbg.png);
+	height: 212px;
+}
+section ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+section ul li img {
+	height: 100px;
+	width: 100px;
+}
+section li {
+	display: flex;
+	flex-direction: column;
+}
+.prefoot {
+	background: url(assets/bgyellow.png);
+	height: 509px;
+}
+.foot {
+	background: url(assets/footerbg.png);
+	height: 499px;
+}
+.underfoot {
+	background: url(assets/underfootbg.png);
+	height: 64px;
+}
+.prefpic {
+	height: 233px;
+	width: 315px;
+}
+.secprefpic {
+	background: url(assets/birdbg.png);
+	height: 233px;
+	width: 329px;
 }

@@ -1,5 +1,4 @@
 /* сброс стилей браузера */
-
 * {
     margin: 0;
 	padding: 0;
@@ -7,5 +6,56 @@
 	font-size: 100%;
 	vertical-align: baseline;
 }
-
 /* конец сброса стилей браузера */
+
+* {
+	width: 1300px;
+}
+body {
+	background: url(assets/bg1.png) no-repeat;
+}
+header {
+	display: flex;
+}
+.logo div {
+	display: flex;
+}
+.logoimg1 {
+	height: 85px;
+	width: 85px;
+	margin-left: 139px;
+	margin-top: 27px;
+	z-index: 5;
+	
+}
+.logoimg2 {
+	height: 80px;
+	width: 79px;
+	margin-left: -85px;
+	z-index: 2;
+
+}
+.logo h1 {
+	width: 200px;
+	color: white;
+	line-height: 30px;
+	font-size: 2em;
+	clear: both;
+}
+nav {
+	background: url(assets/navbg.png);
+	background-size: 42px 454px;
+	height: 42px;
+	width: 454px;
+	display: flex;
+	
+}
+h1 {
+
+}
+main {
+
+}
+section {
+	background: url(assets/centrbg.png);
+}

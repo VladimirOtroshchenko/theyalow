@@ -17,45 +17,74 @@ body {
 header {
 	display: flex;
 }
-.logo div {
-	display: flex;
+.logo {
+	width: 318px;
+	position: relative;
+	left: 139px;
+	top: 27px;
+
 }
 .logoimg1 {
 	height: 85px;
 	width: 85px;
-	margin-left: 139px;
-	margin-top: 27px;
 	z-index: 5;
+	left: 139px;
+	top: 127px;
 	
 }
 .logoimg2 {
+	position: relative;
 	height: 80px;
 	width: 79px;
-	margin-left: -85px;
 	z-index: 2;
-
+	left: -86px;
+	top: -3px;
 }
 .logo h1 {
-	width: 200px;
 	color: white;
-	line-height: 30px;
 	font-size: 2em;
-	clear: both;
+	width: 225px;
+	height: 30px;
 }
 nav {
 	background: url(assets/navbg.png);
-	background-size: 42px 454px;
 	height: 42px;
 	width: 454px;
-	display: flex;
+	position: absolute;
+	top: 70px;
+	right: 140px;
 	
 }
-h1 {
-
+nav ul {
+	font-size: 15px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-grow: 1;
+	width: 454px;
+}
+nav img {
+	height: 11px;
+	width: 11px;
+}
+.slogan h1 {
+	display: flex;
+	width: 392px;
+	height: 121px;
+	position: absolute;
+	top: 500px;
 }
 main {
 
 }
 section {
 	background: url(assets/centrbg.png);
+}
+header h1 {
+	display: flex;
+}
+.player img {
+	height: 327px;
+	width: 549px;
 }

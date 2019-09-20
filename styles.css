@@ -20,7 +20,7 @@ body {
 	width: 1020px;
 	margin: 0 auto;
 	display: flex;
-	border: 2px solid white;
+	border: 2px dashed red;
 }
 header {
 	background-image: url(assets/bg1.png);
@@ -113,14 +113,13 @@ main {
 section {
 	background-image: url(assets/centrbg.png);
 	height: 212px;
-	width: 1300px;
 	margin: 0 auto;
 }
 section ul {
 	font-size: 27pt;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	align-items: center;
 	list-style: none;
 }
 section ul li img {
@@ -128,18 +127,75 @@ section ul li img {
 	width: 100px;
 }
 section li {
+	width: 340px;
+	height: 212px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	width: 340px;
+	align-items: center;
+	border: 1px solid black;
 }
 article {
 	background: url(assets/bgyellow.png);
 	height: 509px;
 	display: flex;
+	flex-direction: column;
+	text-align: left;
+	border: 2px solid white;
 }
 article ul {
+	margin: 0 auto;
+	width: 1020px;
 	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid white;
+	height: 233px;
+}
+article h2 {
+	width: 517px;
+	font-family: 'PTSans-Regular', 'AdobeInvisFont', 'MyriadPro-Regular';
+	font-size: 32.04912pt;
+	color: rgba(255, 255, 255, 255);
+	text-align: left;
+	margin-left: 143px;
+	padding: 40px 0;
+}
+article li {
+	border: 2px solid gray;
+}
+article li:nth-of-type(1n+2) {
+	margin-left: 34px;
+}
+article li p {
+	font-family: 'SegoeWP-Light', 'AdobeInvisFont', 'MyriadPro-Regular';
+	font-size: 29.04912pt;
+	color: rgba(255, 255, 255, 255);
+	text-align: left;
+	width: 272px;
+	height: 174px;
+}
+.text li {
+	width: 341px;
+	height: 233px;
+}
+.pic li {
+	width: 315px;
+	height: 232px;
+}
+.bird li {
+	background: white;
+	width: 329px;
+	height: 233px;
+}
+.bird img {
+	width: 163px;
+	height: 133px;
+}
+.pic img {
+	width: 315px;
+	height: 232px;
 }
 footer {
 	border: 3px solid green;

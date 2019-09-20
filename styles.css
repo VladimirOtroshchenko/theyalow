@@ -11,11 +11,15 @@
 body {
 	text-align: center;
 	background: greenyellow;
+	width: 1300px;
+	margin: 0 auto;
+	display: flex;
 }
 .content div {
 	width: 1020px;
 	margin: 0 auto;
 	display: flex;
+	border: 2px solid black;
 }
 header {
 	background-image: url(assets/bg1.png);
@@ -27,14 +31,11 @@ header {
 .logo div {
 	width: 319px;
 	height: 87px;
-	display: flex;
-
 }
 .logoimg1 {
 	height: 84px;
 	width: 84px;
 	z-index: 10;
-	
 }
 .logoimg2 {
 	height: 80px;
@@ -66,7 +67,10 @@ nav li img {
 	height: 20px;
 }
 nav li {
-	font-size: 14px;
+	font-family: 'SegoeWP', 'AdobeInvisFont', 'MyriadPro-Regular';
+	font-size: 17pt;
+	color: rgba(155, 125, 8, 255);
+	text-align: center;
 }
 .center div {
 	display: flex;
@@ -77,7 +81,6 @@ nav li {
 .slogan h1 {
 	width: 392px;
 	height: 121px;
-	overflow: auto;
 }
 .player div {
 	display: flex;
@@ -99,16 +102,17 @@ nav li {
 	color: yellow;
 }
 main {
+	height: 720px;
 	display: flex;
+	justify-content: space-around;
 	border: 3px solid red;
 }
 section {
 	background-image: url(assets/centrbg.png);
 	height: 212px;
 	width: 1300px;
-	margin: 0 auto;
 	border: 2px solid gray;
-	justify-content: space-around;
+	margin: 0 auto;
 }
 section ul {
 	font-size: 27pt;
@@ -134,6 +138,7 @@ section li {
 	width: 1300px;
 	height: 509px;
 	margin: 0 auto;
+	display: flex;
 }
 .textf p {
 	font-family: 'PTSans-Regular', 'AdobeInvisFont', 'MyriadPro-Regular';

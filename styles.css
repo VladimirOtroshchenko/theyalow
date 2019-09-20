@@ -12,6 +12,7 @@ body {
 	text-align: center;
 	background: greenyellow;
 	width: 1300px;
+	height: 100%;
 	margin: 0 auto;
 	display: flex;
 }
@@ -103,9 +104,10 @@ nav li {
 	color: yellow;
 }
 main {
-	height: 720px;
+	height: 1000px;
 	display: flex;
 	justify-content: space-around;
+	flex-direction: column;
 	border: 3px solid red;
 }
 section {
@@ -134,39 +136,19 @@ section li {
 	border-left: 1px solid black;
 	width: 340px;
 }
-.prefoot div {
-	background: url(assets/bgyellow.png);
-	width: 1300px;
-	height: 509px;
-	margin: 0 auto;
-	display: flex;
-}
-.textf p {
-	font-family: 'PTSans-Regular', 'AdobeInvisFont', 'MyriadPro-Regular';
-	font-size: 37pt;
-	width: 517px;
-	height: 28px;
-	color: rgba(255, 255, 255, 255);
-}
-.texts p {
-	font-family: 'SegoeWP-Light', 'AdobeInvisFont', 'MyriadPro-Regular';
-	font-size: 29pt;
-	width: 272px;
-	height: 174px;
-	text-align: left;
-	color: rgba(255, 255, 255, 255);
+
 }
 footer {
 	border: 3px solid green;
 }
 .foot div {
-	background: url(assets/footerbg.png);
+	background: url;
 	width: 1300px;
 	height: 500px;
 	margin: 0 auto;
 }
 .underfoot div {
-	background: url(assets/underfootbg.png);
+	background: url;
 	width: 1300px;
 	height: 64px;
 	margin: 0 auto;

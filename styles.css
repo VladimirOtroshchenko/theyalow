@@ -8,61 +8,57 @@
 }
 /* reset browser styles */
 
-* {
-	width: 1300px;
-}
 body {
+	text-align: center;
+	background: greenyellow;
 }
-header {
-	background: url(assets/bg1.png);
-	width: 1300px;
-	height: 566px;
+.content div {
+	width: 1020px;
+	margin: 0 auto;
 	display: flex;
 }
-.logo {
+header {
+	background-image: url(assets/bg1.png);
+	width: 1300px;
+	height: 566px;
+	margin: 0 auto;
+	border: 3px solid gray;
+}
+.logo div {
 	width: 319px;
 	height: 87px;
 	display: flex;
-	flex-direction: row;
 
 }
 .logoimg1 {
 	height: 84px;
 	width: 84px;
 	z-index: 10;
-	left: 106px;
 	
 }
 .logoimg2 {
-	position: relative;
 	height: 80px;
 	width: 80px;
 	z-index: 2;
-	left: -82px;
 }
 .logo h1 {
-	position: relative;
-	color: white;
-	font-size: 30px;
+	font-family: 'LucidaSans-Italic', 'AdobeInvisFont', 'MyriadPro-Regular';
+	text-align: center;
+	color: rgba(255, 255, 255, 255);
+	font-size: 41pt;
 	width: 225px;
-	height: 30px;
 }
 nav {
 	background: url(assets/navbg.png);
 	height: 42px;
-	width: 454px;
-	position: absolute;
-	top: 70px;
-	right: 140px;
-	
+	width: 454px;	
 }
 nav ul {
 	font-size: 15px;
 	list-style: none;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	flex-grow: 1;
+	justify-content: center;
 	width: 454px;
 }
 nav li img {
@@ -72,31 +68,55 @@ nav li img {
 nav li {
 	font-size: 14px;
 }
-center {
+.center div {
 	display: flex;
 	flex-direction: row;
-	flex-grow: 1;
-	justify-content: space-between;
 	height: 487px;
+	width: 992px;
 }
-.player {
+.slogan h1 {
+	width: 392px;
+	height: 121px;
+	overflow: auto;
+}
+.player div {
 	display: flex;
+	height: 327px;
+	width: 549px;
+	overflow: auto;
 }
 .player img {
 	height: 327px;
 	width: 549px;
 }
+.slogan {
+	font-family: 'Asap-Regular', 'AdobeInvisFont', 'MyriadPro-Regular';
+	font-size: 63pt;
+	color: rgba(255, 255, 255, 255);
+	display: flex;
+}
+.thecool {
+	color: yellow;
+}
 main {
 	display: flex;
+	border: 3px solid red;
 }
 section {
-	background: url(assets/centrbg.png);
+	background-image: url(assets/centrbg.png);
 	height: 212px;
+	width: 1300px;
+	margin: 0 auto;
+	border: 2px solid gray;
+	justify-content: space-around;
 }
 section ul {
+	font-size: 27pt;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 	list-style: none;
+	border: 2px solid red;
 }
 section ul li img {
 	height: 100px;
@@ -105,25 +125,47 @@ section ul li img {
 section li {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
+	border-left: 1px solid black;
+	width: 340px;
 }
-.prefoot {
+.prefoot div {
 	background: url(assets/bgyellow.png);
+	width: 1300px;
 	height: 509px;
+	margin: 0 auto;
 }
-.foot {
+.textf p {
+	font-family: 'PTSans-Regular', 'AdobeInvisFont', 'MyriadPro-Regular';
+	font-size: 37pt;
+	width: 517px;
+	height: 28px;
+	color: rgba(255, 255, 255, 255);
+}
+.texts p {
+	font-family: 'SegoeWP-Light', 'AdobeInvisFont', 'MyriadPro-Regular';
+	font-size: 29pt;
+	width: 272px;
+	height: 174px;
+	text-align: left;
+	color: rgba(255, 255, 255, 255);
+}
+footer {
+	border: 3px solid green;
+}
+.foot div {
 	background: url(assets/footerbg.png);
-	height: 499px;
+	width: 1300px;
+	height: 500px;
+	margin: 0 auto;
 }
-.underfoot {
+.underfoot div {
 	background: url(assets/underfootbg.png);
+	width: 1300px;
 	height: 64px;
+	margin: 0 auto;
 }
 .prefpic {
 	height: 233px;
 	width: 315px;
-}
-.secprefpic {
-	background: url(assets/birdbg.png);
-	height: 233px;
-	width: 329px;
 }

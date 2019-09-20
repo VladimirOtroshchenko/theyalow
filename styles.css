@@ -25,12 +25,10 @@ header {
 	background-image: url(assets/bg1.png);
 	width: 1300px;
 	height: 566px;
-	margin: 0 auto;
 }
 .logo div {
 	width: 317px;
 	height: 83px;
-	clear: both;
 }
 .logoimg1 {
 	height: 84px;
@@ -53,15 +51,14 @@ nav {
 	background: url(assets/navbg.png);
 	height: 42px;
 	width: 454px;
-	clear: both;
 }
 nav ul {
-	font-size: 15px;
-	list-style: none;
+	width: 454px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	width: 454px;
+	font-size: 15px;
+	list-style: none;
 }
 nav li img {
 	width: 25px;
@@ -73,11 +70,23 @@ nav li {
 	color: rgba(155, 125, 8, 255);
 	text-align: center;
 }
+#about {
+	width: 21px;
+	height: 19px;
+}
+#serv {
+	width: 19px;
+	height: 19px;
+}
+#cont {
+	width: 24px;
+	height: 18px;
+}
 .center div {
-	display: flex;
-	flex-direction: row;
 	height: 327px;
 	width: 992px;
+	display: flex;
+	flex-direction: row;
 }
 .slogan h1 {
 	width: 392px;
@@ -87,7 +96,6 @@ nav li {
 	display: flex;
 	height: 327px;
 	width: 549px;
-	overflow: auto;
 }
 .player img {
 	height: 327px;
@@ -105,8 +113,8 @@ main {
 	flex-direction: column;
 }
 section {
-	background-image: url(assets/centrbg.png);
 	height: 212px;
+	background-image: url(assets/centrbg.png);
 	margin: 0 auto;
 }
 section ul {
@@ -127,6 +135,18 @@ section li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+#better {
+	width: 109px;
+	height: 74px;
+}
+#cust {
+	width: 91px;
+	height: 95px;
+}
+#its {
+	width: 81px;
+	height: 83px;
 }
 article {
 	background: url(assets/bgyellow.png);

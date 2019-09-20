@@ -104,7 +104,7 @@ nav li {
 	color: yellow;
 }
 main {
-	height: 1000px;
+	height: 720px;
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
@@ -114,7 +114,6 @@ section {
 	background-image: url(assets/centrbg.png);
 	height: 212px;
 	width: 1300px;
-	border: 2px solid gray;
 	margin: 0 auto;
 }
 section ul {
@@ -123,7 +122,6 @@ section ul {
 	flex-direction: row;
 	justify-content: space-around;
 	list-style: none;
-	border: 2px solid red;
 }
 section ul li img {
 	height: 100px;
@@ -133,10 +131,15 @@ section li {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	border-left: 1px solid black;
 	width: 340px;
 }
-
+article {
+	background: url(assets/bgyellow.png);
+	height: 509px;
+	display: flex;
+}
+article ul {
+	list-style: none;
 }
 footer {
 	border: 3px solid green;

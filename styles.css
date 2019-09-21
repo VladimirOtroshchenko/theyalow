@@ -100,15 +100,21 @@ nav ul {
 	align-items: center;
 	justify-content: space-around;
 	list-style: none;
+	border-right: none;
 }
 nav li {
-	height: 21px;
+	height: 41px;
+	width: 172px;
 	font-family: 'SegoeWP', 'AdobeInvisFont', 'MyriadPro-Regular';
 	font-size: 14px;
 	text-transform: uppercase;
-	border: 1px solid gray;
+	border-right: 1px solid #dcb105;
 	align-items: center;
 	justify-content: space-around;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-right: 22px;
+	margin-left: 28px;
 }
 nav a {
 	text-decoration: none;

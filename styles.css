@@ -223,7 +223,6 @@ article {
 	flex-direction: column;
 	text-align: left;
 	box-shadow: inset 0 2px 5px -1px #4c4c4c;
-	overflow-x: scroll;
 }
 article ul {
 	margin: 0 auto;
@@ -292,22 +291,39 @@ footer p {
 	font-size: 40px;
 	color: white;
 	border: 1px solid red;
+	margin-top: 48px;
+	margin-left: 353px;
 }
 #picslist {
-	width: 650px;
+	width: 550px;
 	height: 300px;
 	border: 1px solid red;
+	margin-top: 57px;
 }
 #list {
 	width: 310px;
-	height: 450px;
+	height: 300px;
 	border: 1px solid red;
+	margin-top: 107px;
 }
 #picslist ul {
 	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
 }
 #list ul {
 	list-style: none;
+	font-family: 'Raleway';
+	font-size: 20px;
+	color: white;
+	text-align: left;
+}
+#picslist li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid red;
 }
 underfooter { 
 	background: url(assets/underfootbg.png);

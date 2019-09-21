@@ -8,25 +8,6 @@
 }
 /* reset browser styles */
 @font-face {
-	font-family: 'OpenSans';
-	src: url(assets/fonts/OpenSans-Italic.ttf) format('truetype');
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'SegoeWP';
-	src: url(assets/fonts/SegoeWP.ttf) format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Asap regular';
-	src: url(assets/fonts/OpenSans-Regular.ttf) format('truetype');
-	font-weight: lighter;
-	font-style: normal;
-}
-@font-face {
 	font-family: 'Raleway';
 	src: url(assets/fonts/raleway-regular-webfont.ttf) format('truetype');
 	font-style: normal;
@@ -57,35 +38,51 @@ header {
 	width: 1300px;
 	height: 566px;
 }
-.logo {
-	border: 2px solid red;
+.top {
+	height: 112px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
 }
-.logo img {
-	width: 317px;
-	height: 83px;
+#logo {
+	width: 304px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin-left: -20px;
+	margin-top: 28px;
+}
+#logo ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style: none;
+}
+#logo img {
 	position: relative;
 }
-#logoimg1 {
+#logoimgfir {
 	height: 84px;
 	width: 84px;
-	top: 28px;
-	left: -10px;
 	z-index: 10;
 }
-#logoimg2 {
+#logoimgsec {
 	height: 80px;
 	width: 80px;
-	top: 29px;
-	left: -92px;
 	z-index: 2;
+	top: -87px;
 }
-.logo h1 {
+#logo h1 {
 	font-family: 'Raleway-italic';
-	font-size: 35px;
+	font-size: 30px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	color: rgba(255, 255, 255, 255);
 	width: 225px;
+	height: 30px;
+	margin-top: -58px; 
+	margin-left: -30px;
 }
 nav {
 	background: url(assets/navbg.png);
@@ -135,26 +132,29 @@ nav img {
 }
 .center div {
 	height: 327px;
-	width: 992px;
 	display: flex;
 	flex-direction: row;
-}
-.player {
+	margin-top: 78px;
+	justify-content: space-around;
+	vertical-align: bottom;
 }
 .slogan div {
 	width: 392px;
 	height: 121px;
 	display: flex;
+	vertical-align: bottom;
 }
 .slogan h1{
+	height: 121px;
 	font-family: 'Raleway';
 	font-size: 48px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	color: rgba(255, 255, 255, 255);
+	margin-top: 90px;
 }
 #thecool {
-	color: yellow;
+	color: #f5c506;
 }
 main {
 	height: 720px;

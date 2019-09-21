@@ -7,6 +7,37 @@
 	vertical-align: baseline;
 }
 /* reset browser styles */
+@font-face {
+	font-family: 'OpenSans';
+	src: url(assets/fonts/OpenSans-Italic.ttf) format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SegoeWP';
+	src: url(assets/fonts/SegoeWP.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Asap regular';
+	src: url(assets/fonts/OpenSans-Regular.ttf) format('truetype');
+	font-weight: lighter;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url(assets/fonts/raleway-regular-webfont.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 400;
+  }
+  @font-face {
+	font-family: 'Raleway-italic';
+	src: url(assets/fonts/raleway-regularitalic-webfont.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 400;
+  }
 
 body {
 	text-align: center;
@@ -26,26 +57,33 @@ header {
 	width: 1300px;
 	height: 566px;
 }
-.logo div {
+.logo img {
 	width: 317px;
 	height: 83px;
+	position: relative;
 }
-.logoimg1 {
+#logoimg1 {
 	height: 84px;
 	width: 84px;
+	top: 28px;
+	left: -10px;
 	z-index: 10;
 }
-.logoimg2 {
+#logoimg2 {
 	height: 80px;
 	width: 80px;
+	top: 29px;
+	left: -92px;
 	z-index: 2;
 }
 .logo h1 {
-	font-family: 'LucidaSans-Italic', 'AdobeInvisFont', 'MyriadPro-Regular';
-	text-align: center;
+	font-family: 'Raleway-italic';
+	font-size: 35px;
+	letter-spacing: 0.1em;
 	color: rgba(255, 255, 255, 255);
-	font-size: 41pt;
 	width: 225px;
+	margin-top: 30px;
+	text-decoration: none;
 }
 nav {
 	background: url(assets/navbg.png);
@@ -88,23 +126,45 @@ nav li {
 	display: flex;
 	flex-direction: row;
 }
-.slogan h1 {
+.player img {
+	position: relative;
+	height: 327px;
+	width: 549px;
+	top: 75px;
+    left: 10px;
+}
+#playerback {
+	height: 327px;
+	width: 549px;
+	z-index: 1;
+}
+#playtr {
+	height: 34px;
+	width: 19px;
+	left: -273px;
+	top: 222px;
+	z-index: 5;
+}
+#play {
+	height: 67px;
+	width: 67px;
+	z-index: 2;
+	top: 206px;
+	right: 500px;
+}
+.slogan div {
 	width: 392px;
 	height: 121px;
-}
-.player div {
 	display: flex;
-	height: 327px;
-	width: 549px;
 }
-.player img {
-	height: 327px;
-	width: 549px;
-}
-.slogan {
-	font-family: 'Asap-Regular', 'AdobeInvisFont', 'MyriadPro-Regular';
-	font-size: 63pt;
+.slogan h1{
+	font-family: 'Raleway';
+	font-size: 48px;
+	letter-spacing: 0.1em;
 	color: rgba(255, 255, 255, 255);
+}
+#thecool {
+	color: yellow;
 }
 main {
 	height: 720px;
@@ -135,6 +195,7 @@ section li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-family: 'Raleway';
 }
 #better {
 	width: 109px;
@@ -165,30 +226,33 @@ article ul {
 	align-items: center;
 	height: 233px;
 }
-article h2 {
+#arttitle {
 	width: 517px;
-	font-family: 'PTSans-Regular', 'AdobeInvisFont', 'MyriadPro-Regular';
-	font-size: 32.04912pt;
+	font-family: 'Raleway';
+	font-size: 33px;
 	color: rgba(255, 255, 255, 255);
 	text-align: left;
-	margin-left: 143px;
 	padding: 40px 0;
+	margin-left: 143px;
 }
 article li {
 	display: flex;
+	justify-content: space-around;
 }
 article li p {
-	font-family: 'SegoeWP-Light', 'AdobeInvisFont', 'MyriadPro-Regular';
-	font-size: 25.04912pt;
+	font-family: 'Raleway';
+	font-size: 28px;
 	color: rgba(255, 255, 255, 255);
 	text-align: left;
 	width: 272px;
 	height: 174px;
+	margin-top: 25px;
 }
 .text {
-	display: block;
+	background: url(assets/sectiontextbg.png);
 	width: 341px;
 	height: 233px;
+	justify-content: space-around;
 }
 .pic {
 	width: 315px;
@@ -198,6 +262,8 @@ article li p {
 	background-image: url(assets/birdbg.png);
 	width: 329px;
 	height: 233px;
+	justify-content: space-around;
+	align-items: center;
 }
 .bird img {
 	width: 163px;

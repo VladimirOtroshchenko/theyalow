@@ -41,7 +41,7 @@
 
 body {
 	text-align: center;
-	background: white;
+	background: black;
 	width: 1300px;
 	height: 100%;
 	margin: 0 auto;
@@ -56,6 +56,9 @@ header {
 	background-image: url(assets/bg1.png);
 	width: 1300px;
 	height: 566px;
+}
+.logo {
+	border: 2px solid red;
 }
 .logo img {
 	width: 317px;
@@ -79,34 +82,44 @@ header {
 .logo h1 {
 	font-family: 'Raleway-italic';
 	font-size: 35px;
+	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	color: rgba(255, 255, 255, 255);
 	width: 225px;
-	margin-top: 30px;
-	text-decoration: none;
 }
 nav {
 	background: url(assets/navbg.png);
-	height: 42px;
-	width: 454px;
-}
+	height: 41px;
+	width: 453px;
+	margin-top: 71px;
+	display: flex;
+	box-shadow: -5px -5px rgba(245, 197, 6, 0.6),
+				-8px -8px rgba(245, 197, 6, 0.4);
+	}
 nav ul {
 	width: 454px;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	justify-content: space-around;
-	font-size: 15px;
 	list-style: none;
 }
-nav li img {
-	width: 25px;
-	height: 20px;
-}
 nav li {
+	height: 21px;
 	font-family: 'SegoeWP', 'AdobeInvisFont', 'MyriadPro-Regular';
-	font-size: 17pt;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 1px solid gray;
+	align-items: center;
+	justify-content: space-around;
+}
+nav a {
+	text-decoration: none;
 	color: rgba(155, 125, 8, 255);
-	text-align: center;
+}
+nav img {
+	margin-right: 9px;
+	vertical-align: middle;
 }
 #about {
 	width: 21px;
@@ -126,31 +139,7 @@ nav li {
 	display: flex;
 	flex-direction: row;
 }
-.player img {
-	position: relative;
-	height: 327px;
-	width: 549px;
-	top: 75px;
-    left: 10px;
-}
-#playerback {
-	height: 327px;
-	width: 549px;
-	z-index: 1;
-}
-#playtr {
-	height: 34px;
-	width: 19px;
-	left: -273px;
-	top: 222px;
-	z-index: 5;
-}
-#play {
-	height: 67px;
-	width: 67px;
-	z-index: 2;
-	top: 206px;
-	right: 500px;
+.player {
 }
 .slogan div {
 	width: 392px;
@@ -160,6 +149,7 @@ nav li {
 .slogan h1{
 	font-family: 'Raleway';
 	font-size: 48px;
+	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	color: rgba(255, 255, 255, 255);
 }
@@ -169,33 +159,37 @@ nav li {
 main {
 	height: 720px;
 	display: flex;
-	justify-content: space-around;
 	flex-direction: column;
 }
 section {
 	height: 212px;
-	background-image: url(assets/centrbg.png);
-	margin: 0 auto;
+	width: 1300px;
+	background-image: url(assets/sectionbg.png);
 }
 section ul {
-	font-size: 27pt;
+	width: 1020px;
+	font-size: 27px;
+	text-transform: uppercase;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	list-style: none;
+	margin: 0 auto;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
 }
 section ul li img {
 	height: 100px;
 	width: 100px;
-	margin: auto 0;
 }
 section li {
 	width: 340px;
-	height: 212px;
+	height: 180px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	font-family: 'Raleway';
+	justify-content: flex-end;
+	padding-bottom: 25px;
 }
 #better {
 	width: 109px;
@@ -222,14 +216,13 @@ article ul {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
 	height: 233px;
 }
 #arttitle {
 	width: 517px;
 	font-family: 'Raleway';
 	font-size: 33px;
+	text-transform: uppercase;
 	color: rgba(255, 255, 255, 255);
 	text-align: left;
 	padding: 40px 0;
@@ -264,6 +257,7 @@ article li p {
 	height: 233px;
 	justify-content: space-around;
 	align-items: center;
+	margin-left: 34px;
 }
 .bird img {
 	width: 163px;

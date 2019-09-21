@@ -22,7 +22,7 @@
 
 body {
 	text-align: center;
-	background: black;
+	background: white;
 	width: 1300px;
 	height: 100%;
 	margin: 0 auto;
@@ -171,6 +171,7 @@ section {
 	height: 212px;
 	width: 1300px;
 	background-image: url(assets/sectionbg.png);
+	box-shadow: 0px -2px 5px -1px #4c4c4c;
 }
 section ul {
 	width: 1020px;
@@ -180,8 +181,8 @@ section ul {
 	flex-direction: row;
 	list-style: none;
 	margin: 0 auto;
-	border-right: 1px solid gray;
-	border-left: 1px solid gray;
+	border-right: 1px solid #d1d1d1;
+	border-left: 1px solid #d1d1d1;
 }
 section ul li img {
 	height: 100px;
@@ -195,7 +196,7 @@ section li {
 	align-items: center;
 	font-family: 'Raleway';
 	justify-content: flex-end;
-	padding-bottom: 25px;
+	padding-bottom: 32px;
 }
 #better {
 	width: 109px;
@@ -221,6 +222,7 @@ article {
 	display: flex;
 	flex-direction: column;
 	text-align: left;
+	box-shadow: inset 0 2px 5px -1px #4c4c4c;
 }
 article ul {
 	margin: 0 auto;
@@ -258,10 +260,6 @@ article li p {
 	width: 341px;
 	height: 233px;
 	justify-content: space-around;
-}
-.pic {
-	width: 315px;
-	height: 232px;
 }
 .bird {
 	background-image: url(assets/birdbg.png);

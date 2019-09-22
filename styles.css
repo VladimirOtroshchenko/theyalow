@@ -4,7 +4,6 @@
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	vertical-align: baseline;
 }
 /* reset browser styles */
 @font-face {
@@ -41,8 +40,6 @@ header {
 .top {
 	height: 112px;
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
 }
 #logo {
 	width: 304px;
@@ -98,8 +95,6 @@ nav ul {
 	width: 454px;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
 	list-style: none;
 	border-right: none;
 }
@@ -110,8 +105,6 @@ nav li {
 	font-size: 17px;
 	text-transform: uppercase;
 	border-right: 1px solid #dcb105;
-	align-items: center;
-	justify-content: space-around;
 	box-sizing: border-box;
 	padding-top: 11px;
 	margin-left: 34px;
@@ -149,7 +142,6 @@ nav img {
 	width: 392px;
 	height: 121px;
 	display: flex;
-	vertical-align: bottom;
 }
 .slogan h1{
 	height: 121px;
@@ -288,28 +280,37 @@ footer p {
 	width: 601px;
 	height: 32px;
 	font-family: 'Raleway';
-	font-size: 40px;
+	font-size: 38px;
 	color: white;
 	border: 1px solid red;
-	margin-top: 48px;
+	margin-top: 40px;
 	margin-left: 353px;
+	text-transform: uppercase;
 }
 #picslist {
-	width: 550px;
-	height: 300px;
-	border: 1px solid red;
-	margin-top: 57px;
+	width: 600px;
+	height: 350px;
+	border: 1px solid green;
+	margin-top: 13px;
+	margin-left: -10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 #list {
 	width: 310px;
-	height: 300px;
+	height: 214px;
 	border: 1px solid red;
 	margin-top: 107px;
+	display: flex;
 }
 #picslist ul {
+	width: 550px;
+	height: 300px;
 	list-style: none;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	border: 1px solid black;
 }
 #list ul {
 	list-style: none;
@@ -317,6 +318,9 @@ footer p {
 	font-size: 20px;
 	color: white;
 	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 #picslist li {
 	display: flex;
@@ -324,6 +328,13 @@ footer p {
 	justify-content: space-between;
 	align-items: center;
 	border: 2px solid red;
+}
+#phone img {
+	padding-top: 112px;
+	padding-right: 6px;
+}
+#list li {
+
 }
 underfooter { 
 	background: url(assets/underfootbg.png);

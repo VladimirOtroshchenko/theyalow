@@ -119,8 +119,8 @@ nav {
 	width: 453px;
 	margin-top: 71px;
 	display: flex;
-	box-shadow: -5px -5px rgba(245, 197, 6, 0.6),
-				-8px -8px rgba(245, 197, 6, 0.4);
+	box-shadow: -4px -5px rgba(245, 197, 6, 0.4),
+				-8px -8px rgba(245, 197, 6, 0.2);
 	}
 nav ul {
 	width: 454px;
@@ -179,6 +179,62 @@ nav img {
 	margin-left: 10px;
 	justify-content: space-around;
 }
+.player {
+	display: flex;
+	position: relative;
+}
+#triangleplay {
+	width: 19px;
+	height:	34px;
+	position: absolute;
+	top: 147px;
+	left: 268px;
+	z-index: 10;
+}
+#polosapr {
+	width: 404px;
+	height:	12px;
+	position: absolute;
+	top: 285px;
+	left: 80px;
+}
+#polosapr2 {
+	width: 179px;
+	height:	12px;
+	position: absolute;
+	top: 285px;
+	left: 80px;
+	border-radius: 5px;
+}
+#play {
+	width: 67px;
+	height:	67px;
+	position: absolute;
+	top: 128px;
+	left: 240px;
+	z-index: 5;	
+}
+#sq {
+	width: 27px;
+	height:	27px;
+	position: absolute;
+	top: 278px;
+	left: 29px;
+}
+#sqtr {
+	width: 10px;
+	height:	17px;
+	position: absolute;
+	top: 283px;
+	left: 39px;
+}
+#vol {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 284px;
+	left: 515px;
+}
 .slogan div {
 	width: 392px;
 	height: 121px;
@@ -187,14 +243,18 @@ nav img {
 .slogan h1{
 	height: 121px;
 	font-family: 'Asap Regular';
-	font-size: 58px;
+	font-size: 61px;
+	letter-spacing: 0.03em;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 255);
-	margin-top: 85px;
+	margin-top: 70px;
+	margin-left: 25px;
+	word-spacing: -0.03em;
 }
 #thecool {
 	color: #f5c506;
+	margin-left: -17px;
 }
 #button_left {
 	width: 13px;

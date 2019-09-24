@@ -292,7 +292,6 @@ section ul {
 	flex-direction: row;
 	list-style: none;
 	margin: 0 auto;
-	border-right: 1px solid #d1d1d1;
 	border-left: 1px solid #d1d1d1;
 }
 section ul li img {
@@ -308,23 +307,37 @@ section li {
 	font-family: 'SegoeUI-light';
 	justify-content: flex-end;
 	padding-bottom: 32px;
+	border-right: 1px solid #d1d1d1;
+}
+#bettertxt {
+	margin-left: 18px;
+	margin-bottom: 1px;
+	letter-spacing: 0.01em;
+}
+#custtxt{
+	margin-left: 19px;
+	letter-spacing: 0.01em;
+}
+#itstxt {
+	margin-left: -16px;
+	letter-spacing: 0.01em;
 }
 #better {
 	width: 109px;
 	height: 74px;
-	margin-bottom: 14px;
+	margin-bottom: 9px;
 	margin-left: -5px;
 }
 #cust {
 	width: 91px;
 	height: 95px;
-	margin-bottom: 17px;
+	margin-bottom: 14px;
 	margin-left: 23px;
 }
 #its {
 	width: 81px;
 	height: 83px;
-	margin-bottom: 13px;
+	margin-bottom: 8px;
 	margin-left: -22px;
 }
 article {

@@ -170,6 +170,7 @@ nav a {
 }
 #li_contact {
 	width: 147px;
+	border-right: none;
 }
 nav img {
 	margin-right: 9px;
@@ -536,14 +537,10 @@ footer p {
 	position: relative;
 }
 #list {
-	width: 350px;
-	height: 230px;
-	border: 1px solid red;
-	margin-top: 114px;
-	margin-left: 65px;
-	display: flex;
-	flex-direction: row;
-	justify-content: baseline;
+	width: 370px;
+	height: 250px;
+	margin-top: 110px;
+	margin-right: -9px;
 }
 #picslist ul {
 	width: 550px;
@@ -553,8 +550,8 @@ footer p {
 	justify-content: space-between;
 }
 #list ul {
-	width: 350px;
-	height: 226px;
+	width: 370px;
+	height: 250px;
 	font-family: 'OpenSans';
 	font-size: 22px;
 	line-height: 1.2em;
@@ -564,7 +561,6 @@ footer p {
 	text-align: left;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
 	list-style-image: url(assets/footerlistyle.png);
 }
 #picslist li {
@@ -594,11 +590,21 @@ footer p {
 	justify-content: space-around;
 }
 #list li {
-	height: 50px;
 	width: 350px;
-	border: 1px solid red;
-	padding-left: 13px;
-	display: flex;	
+	padding-left: 12px;
+}
+#stringfirst {
+	padding-bottom: 6px;
+	margin-top: 2.8px;
+}
+#stringsecond {
+	margin-top: 16.6px;
+}
+#stringthird {
+	margin-top: 14px;
+}
+#stringfourth {
+	margin-top: 25px;
 }
 underfooter { 
 	background: url(assets/underfootbg.png);

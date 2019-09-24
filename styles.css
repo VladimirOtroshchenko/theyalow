@@ -7,16 +7,46 @@
 }
 /* reset browser styles */
 @font-face {
-	font-family: 'Raleway';
-	src: url(assets/fonts/raleway-regular-webfont.ttf) format('truetype');
-	font-style: normal;
-	font-weight: 400;
+    font-family: 'Lucida Sans';
+    src: url(assets/fonts/LucidaSans-Italic.woff2) format('woff2');
+    font-style: normal;
+	font-weight: normal;
   }
   @font-face {
-	font-family: 'Raleway-italic';
-	src: url(assets/fonts/raleway-regularitalic-webfont.ttf) format('truetype');
-	font-style: normal;
-	font-weight: 400;
+    font-family: 'SegoeWP';
+    src: url(assets/fonts/SegoeWP.woff2) format('woff2');
+    font-style: normal;
+	font-weight: normal;
+  }
+  @font-face {
+    font-family: 'Asap Regular';
+    src: url(assets/fonts/Asap-Regular.woff2) format('woff2');
+    font-style: normal;
+	font-weight: normal;
+  }
+  @font-face {
+    font-family: 'SegoeUI-light';
+    src: url(assets/fonts/SegoeUI-Light.woff2) format('woff2');
+    font-style: normal;
+	font-weight: normal;
+  }
+  @font-face {
+    font-family: 'PTSans-Regular';
+    src: url(assets/fonts/ptsans/PTSans-Regular.woff2) format('woff2');
+    font-style: normal;
+	font-weight: normal;
+  }
+  @font-face {
+    font-family: 'SegoeWP-light';
+    src: url(assets/fonts/SegoeWP-Light.woff2) format('woff2');
+    font-style: normal;
+	font-weight: normal;
+  }
+  @font-face {
+    font-family: 'OpenSans';
+    src: url(assets/fonts/OpenSans-Regular.ttf) format('truetype');
+    font-style: normal;
+	font-weight: normal;
   }
 
 body {
@@ -72,15 +102,16 @@ header {
 	top: -87px;
 }
 #logo h1 {
-	font-family: 'Raleway-italic';
+	font-family: 'Lucida Sans';
 	font-size: 40px;
 	text-transform: uppercase;
-	letter-spacing: 0.1em;
+	font-weight: 400;
 	color: rgba(255, 255, 255, 255);
 	width: 225px;
 	height: 30px;
-	margin-top: -62px; 
-	margin-left: 10px;
+	margin-top: -63px; 
+	margin-left: 3px;
+	letter-spacing: 0.03em;
 }
 nav {
 	background: url(assets/navbg.png);
@@ -95,23 +126,33 @@ nav ul {
 	width: 454px;
 	display: flex;
 	flex-direction: row;
+	align-content: space-around;
 	list-style: none;
 	border-right: none;
 }
 nav li {
 	height: 41px;
 	width: 300px;
-	font-family: 'SegoeWP', 'AdobeInvisFont', 'MyriadPro-Regular';
+	font-family: 'SegoeWP';
 	font-size: 17px;
 	text-transform: uppercase;
 	border-right: 1px solid #dcb105;
 	box-sizing: border-box;
-	padding-top: 11px;
-	margin-left: 34px;
+	padding-top: 8px;
 }
 nav a {
 	text-decoration: none;
 	color: rgba(155, 125, 8, 255);
+}
+#li_about {
+	width: 172px;
+	padding-left: 17px;
+}
+#li_services {
+	width: 132px;
+}
+#li_contact {
+	width: 147px;
 }
 nav img {
 	margin-right: 9px;
@@ -128,6 +169,7 @@ nav img {
 #cont {
 	width: 24px;
 	height: 18px;
+	padding-bottom: 2px;
 }
 .center div {
 	height: 327px;
@@ -136,7 +178,6 @@ nav img {
 	margin-top: 56px;
 	margin-left: 10px;
 	justify-content: space-around;
-	vertical-align: bottom;
 }
 .slogan div {
 	width: 392px;
@@ -145,8 +186,9 @@ nav img {
 }
 .slogan h1{
 	height: 121px;
-	font-family: 'Raleway';
+	font-family: 'Asap Regular';
 	font-size: 58px;
+	font-weight: 400;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 255);
 	margin-top: 85px;
@@ -154,6 +196,23 @@ nav img {
 #thecool {
 	color: #f5c506;
 }
+#button_left {
+	width: 13px;
+	height: 19px;
+	float: left;
+	background: url(assets/button_bg.png);
+	padding: 19px 11px 19px 8px;
+	margin-top: -196px;
+}
+#button_right {
+	width: 13px;
+	height: 19px;
+	float: right;
+	background: url(assets/button_bg.png);
+	padding: 19px 8px 19px 11px;
+	margin-top: -196px;
+}
+
 main {
 	height: 720px;
 	display: flex;
@@ -186,7 +245,7 @@ section li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-family: 'Raleway';
+	font-family: 'SegoeUI-light';
 	justify-content: flex-end;
 	padding-bottom: 32px;
 }
@@ -226,7 +285,7 @@ article ul {
 }
 #arttitle {
 	width: 517px;
-	font-family: 'Raleway';
+	font-family: 'PTSans-Regular';
 	font-size: 33px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 255);
@@ -239,7 +298,7 @@ article li {
 	justify-content: space-around;
 }
 article li p {
-	font-family: 'Raleway';
+	font-family: 'SegoeWP-light';
 	font-size: 28px;
 	color: rgba(255, 255, 255, 255);
 	text-align: left;
@@ -279,7 +338,7 @@ footer {
 footer p {
 	width: 601px;
 	height: 32px;
-	font-family: 'Raleway';
+	font-family: 'PTSans-Regular';
 	font-size: 38px;
 	color: white;
 	border: 1px solid red;
@@ -298,10 +357,11 @@ footer p {
 	justify-content: space-around;
 }
 #list {
-	width: 310px;
-	height: 214px;
+	width: 350px;
+	height: 215px;
 	border: 1px solid red;
 	margin-top: 107px;
+	margin-left: 57px;
 	display: flex;
 }
 #picslist ul {
@@ -314,13 +374,14 @@ footer p {
 }
 #list ul {
 	list-style: none;
-	font-family: 'Raleway';
+	font-family: 'OpenSans';
 	font-size: 20px;
 	color: white;
 	text-align: left;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	list-style-image: url(assets/footerlistyle.png);
 }
 #picslist li {
 	display: flex;
@@ -334,7 +395,8 @@ footer p {
 	padding-right: 6px;
 }
 #list li {
-
+	border: 1px solid red;
+	padding-left: 1px;
 }
 underfooter { 
 	background: url(assets/underfootbg.png);

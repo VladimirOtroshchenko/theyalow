@@ -48,7 +48,18 @@
     font-style: normal;
 	font-weight: normal;
   }
-
+  @font-face {
+    font-family: 'SegoeUI-bold';
+    src: url(assets/fonts/SegoeUI-Bold.woff2) format('woff2');
+    font-style: normal;
+	font-weight: normal;
+  }
+  @font-face {
+    font-family: 'SegoeUI';
+    src: url(assets/fonts/SegoeUI.woff2) format('woff2');
+    font-style: normal;
+	font-weight: normal;
+  }
 body {
 	text-align: center;
 	background: white;
@@ -357,27 +368,39 @@ article ul {
 	height: 233px;
 }
 #arttitle {
-	width: 517px;
+	width: 525px;
 	font-family: 'PTSans-Regular';
-	font-size: 33px;
+	font-size: 37px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 255);
 	text-align: left;
-	padding: 35px 0;
-	margin-left: 143px;
+	padding: 30px 0;
+	margin-left: 141px;
+	letter-spacing: 0.01em;
 }
 article li {
 	display: flex;
 	justify-content: space-around;
+	position: relative;
 }
 article li p {
 	font-family: 'SegoeWP-light';
 	font-size: 28px;
 	color: rgba(255, 255, 255, 255);
 	text-align: left;
-	width: 272px;
+	width: 280px;
 	height: 174px;
-	margin-top: 25px;
+	margin-top: 18px;
+	letter-spacing: 0.0249em;
+	line-height: 1.37em;
+}
+#pplus {
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	bottom: 12px;
+	right: 14px;
+	z-index: 5;
 }
 .text {
 	background: url(assets/sectiontextbg.png);
@@ -398,9 +421,68 @@ article li p {
 	height: 133px;
 	margin-top: 19px;
 }
-.pic img {
+.vid img {
 	width: 315px;
 	height: 232px;
+}
+#triplay {
+	width: 17px;
+	height: 31px;
+	position: absolute;
+	top: 109px;
+	left: 154px;
+	z-index: 8;
+}
+#roundpl {
+	width: 61px;
+	height: 61px;
+	position: absolute;
+	top: 93px;
+	left: 129px;
+}
+#twentytwo {
+	color: #ffffff;
+	font-family: 'SegoeWP-light';
+	font-size: 27px;
+	position: absolute;
+	top: 11px;
+	right: 17px;
+}
+#plusec {
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	bottom: 12px;
+	right: 10px;
+	z-index: 5;
+}
+.date {
+	width: 113px;
+	height: 86px;
+	background: #ddb101;
+	margin-left: 140px;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	position: relative;
+}
+#twentyfive {
+	width: 55px;
+	color: #ffffff;
+	font-size: 48px;
+	font-family: 'SegoeUI-bold';
+	margin: 0 auto;
+	letter-spacing: 0.05em;
+}
+#april {
+	width: 55px;
+	height: 15px;
+	text-transform: uppercase;
+	font-family:'SegoeUI';
+	font-size: 20px;
+	color: #b26529;
+	margin: -8px 32px;
+	letter-spacing: 0.03em;
 }
 footer {
 	background: url(assets/footerbg.png);

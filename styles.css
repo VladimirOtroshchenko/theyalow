@@ -691,12 +691,12 @@ header {
 }
 .top {
 	height: 62px;
-	width: 640px;
+	width: 300px;
 	position: relative;
-	background: url(assets/mobilelogobg.png);
+	background: url(assets/mobilelogobg.png) no-repeat;
 }
 #logo ul {
-	width: 175px;
+	width: 178px;
 	height: 20px;
 	list-style: none;
 	display: flex;
@@ -721,25 +721,54 @@ header {
 	left: 10px;
 }
 #logo h1 {
-	font-size: 20px;
+	font-size: 19px;
 	margin-left: -43px;
 	margin-top: -50px;
-	letter-spacing: -0.01em;
+	letter-spacing: 0.02em;
 }
 nav {
-	width: 455px;
+	width: 454px;
 	height: 62px;
 	box-shadow: none;
 	margin-top: 0px;
-	margin-right: 381px;
+	margin-right: 380px;
 }
 nav ul {
+	font-size: 26px;
 	width: 455px;
 	height: 62px;
 	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid gray;
+	box-shadow: 0px 8px 11px -8px rgba(0,0,0,0.75);
 }
 nav li {
+	height: 62px;
 	padding-top: 20px;
+	letter-spacing: 0.08em;
+}
+#about {
+	height: 22px;
+	width: 24px;
+	margin-left: -16px;
+	padding-right: 3px;
+}
+#serv {
+	height: 22px;
+	width: 22px;
+	margin-left: -5px;
+}
+#cont {
+	height: 21px;
+	width: 28px;
+	margin-left: -1px;
+	padding-right: 4px;
+}
+#li_services {
+	width: 132px;
+}
+#li_contact {
+	width: 149px;
 }
 .center {
 	background: url(assets/mobileplayer.png) no-repeat;
@@ -773,27 +802,44 @@ main {
 section {
 	width: 640px;
 	height: 174px;
+	box-shadow: -4px -4px rgba(236, 236, 233, 0.6),
+				-9px -9px rgba(236, 236, 233, 0.3);
 }
 section ul {
 	width: 640px;
 	display: flex;
 	border: none;
+	justify-content: space-around;
+	letter-spacing: 0.09px;
+}
+section li {
+	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
+	height: 174px;
 }
 section li a {
-	font-size: 20px;
-	width: 200px;
-	height: 174px;
+	font-size: 23px;
+	width: 213.3px;
+	height: 108px;
 	border: none;
-	margin-top: -30px;
+	padding-top: 34px;
 }
 #better {
 	width: 89px;
 	height: 61px;
+	margin-left: -35px;
+	margin-bottom: 17px;
+}
+#bettertxt {
+	margin-left: -24px;
+	letter-spacing: 0.02em;
+	word-spacing: -0.09em;
 }
 #cust {
 	width: 67px;
 	height: 69px;
+	margin-left: 16px;
 }
 #its {
 	width: 68px;

@@ -424,6 +424,9 @@ article li p {
 	letter-spacing: 0.0249em;
 	line-height: 1.37em;
 }
+#brbr {
+	display: none;
+}
 #pplus {
 	width: 11px;
 	height: 11px;
@@ -844,6 +847,11 @@ section li a {
 #its {
 	width: 68px;
 	height: 69px;
+	margin-left: -4px;
+	margin-bottom: 13px;
+}
+#itstxt {
+	margin-left: 7px;
 }
 article {
 	width: 640px;
@@ -860,15 +868,41 @@ article ul {
 .text {
 	width: 299px;
 	height: 232px;
-	margin: 11px 9px 9px 9px;
+	margin: 7px 9px 7px 9px;
+}
+.text p {
+	font-size: 27px;
+	margin-left: 25px;
+	margin-top: 16px;
+	letter-spacing: 0.05em;
+	line-height: 1.25em;
+	word-spacing: 0.02em;
+	white-space: pre-line;
+}
+#pplus {
+	margin-bottom: 5px;
+	margin-right: -3px;
+}
+#br {
+	display: none;
+}
+#brbr {
+	display: inline;
 }
 .vid {
-	margin-top: 11px;
+	margin-top: 7px;
 }
 .bird {
 	width: 317px;
 	height: 233px;
 	margin-left: 0px;
+	background: #dcb105;
+}
+.bird img {
+	height: 133px;
+	width: 159px;
+	margin-left: 62px;
+	margin-top: 15px;
 }
 .bubbleblock {
 	width: 323px;
@@ -876,11 +910,36 @@ article ul {
 	display: block;
 	background: #dcb105;
 	margin-left: 0px;
+	position: relative;
 }
-.bubbleblock img {
+.bubbletext {
+	color: rgba(143, 142, 142, 255);
+	background: url(assets/bubble.svg) no-repeat;
+	height: 42px;
+	width: 284px;
+	margin-top: 7px;
+
 	display: flex;
-	margin-top: 19px;
-	margin-left: 7px;
+	flex-direction: row;
+	justify-content: center;
+}
+#tweet {
+	width: 270px;
+	height: 29px;
+	z-index: 5;
+	display: flex;
+	position: absolute;
+	bottom: 14px;
+	right: 32px;
+}
+#tweet_button {
+	width: 69px;
+	height: 29px;
+	z-index: 8;
+	display: flex;
+	position: absolute;
+	bottom: 14px;
+	right: 32px;
 }
 #twentytwo {
 	display: none;
@@ -898,9 +957,6 @@ article ul {
 	width: 299px;
 	height: 232px;
 }
-.text p {
-	font-size: 15px;
-}
 #slider_bg {
 	display: none;
 }
@@ -912,12 +968,17 @@ article ul {
 }
 footer {
 	width: 640px;
+	height: 466px;
 }
 footer p {
-	font-size: 25px;
-	margin: 32px auto;
+	font-size: 40px;
+	margin: 27px -10px;;
+	letter-spacing: 0.04em;
 }
 #picslist {
 	margin-left: 30px;
+}
+uderfooter {
+	height: 45px;
 }
 }

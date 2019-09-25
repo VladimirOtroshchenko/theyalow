@@ -5,7 +5,8 @@
 	border: 0;
 	font-size: 100%;
 }
-/* reset browser styles */
+/* reset browser styles done */
+
 @font-face {
     font-family: 'Lucida Sans';
     src: url(assets/fonts/LucidaSans-Italic.woff2) format('woff2');
@@ -176,6 +177,9 @@ nav img {
 	margin-right: 9px;
 	vertical-align: bottom;
 }
+nav a:hover {
+	color: rgba(255, 244, 237, 0.7);
+}
 #about {
 	width: 21px;
 	height: 19px;
@@ -290,7 +294,16 @@ nav img {
 	padding: 19px 8px 19px 11px;
 	margin-top: -196px;
 }
-
+#button_right:hover {
+	width: 16px;
+	transition: all 0.9s ease;
+	border-radius: 25px;
+}
+#button_left:hover {
+	width: 16px;
+	transition: all 0.3s ease;
+	border-radius: 25px;
+}
 main {
 	height: 720px;
 	display: flex;
@@ -304,6 +317,12 @@ section {
 }
 section a {
 	text-decoration: none;
+	color: #050505;
+}
+section a:hover {
+	color: yellow;
+	background: rgba(102, 156, 255, 0.4);
+	transition: all 0.4s ease;
 }
 section ul {
 	width: 1020px;
@@ -401,6 +420,7 @@ article li p {
 	width: 280px;
 	height: 174px;
 	margin-top: 18px;
+	margin-left: 20px;
 	letter-spacing: 0.0249em;
 	line-height: 1.37em;
 }
@@ -412,6 +432,9 @@ article li p {
 	right: 14px;
 	z-index: 5;
 }
+#pplus:hover {
+	transform: scale(1.3);
+}
 .text {
 	background: url(assets/sectiontextbg.png);
 	width: 341px;
@@ -422,7 +445,6 @@ article li p {
 	background-image: url(assets/birdbg.png);
 	width: 329px;
 	height: 233px;
-	justify-content: space-around;
 	align-items: center;
 	margin-left: 34px;
 }
@@ -430,6 +452,7 @@ article li p {
 	width: 163px;
 	height: 133px;
 	margin-top: 19px;
+	margin-left: 53px;
 }
 .vid img {
 	width: 315px;
@@ -466,6 +489,9 @@ article li p {
 	right: 10px;
 	z-index: 5;
 }
+#plusec:hover {
+		transform: scale(1.3);
+	}
 .date {
 	width: 113px;
 	height: 86px;

@@ -388,6 +388,50 @@ article {
 	text-align: left;
 	box-shadow: inset 0 2px 5px -1px #4c4c4c;
 }
+.range_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	position: relative;
+	width: 896px; 
+	height: 15px; 
+	overflow: hidden;
+	top: 44px;
+	left: 74px;
+}
+input[type='range'] {
+	position: absolute;
+	width: 896px; 
+	height: 15px; 
+	-webkit-appearance: none;
+	background: url(assets/slider_bg.png);
+	top: -2px;
+	left: -2px;
+}
+input[type='range']::-webkit-slider-runnable-track {
+	height: 15px;
+	-webkit-appearance: none;
+	margin-top: 1px;
+}
+input[type='range']::-webkit-slider-thumb {
+	width: 197px;
+	-webkit-appearance: none;
+	height: 15px;
+	cursor: ew-resize;
+	background: url(assets/slider.png);
+}
+input[type="range"]::-moz-range-progress {
+	background-color: rgba(250, 231, 152, 0.4);
+}
+input[type="range"]::-moz-range-track {  
+	background-color: rgba(250, 231, 152, 0.4);
+}
+input[type="range"]::-ms-fill-lower {
+	background-color: rgba(250, 231, 152, 0.4);
+}
+input[type="range"]::-ms-fill-upper {  
+	background-color: rgba(250, 231, 152, 0.4);
+}
 article ul {
 	margin: 0 auto;
 	width: 1020px;
@@ -395,6 +439,7 @@ article ul {
 	display: flex;
 	flex-direction: row;
 	height: 233px;
+	margin-top: 2px;
 }
 #arttitle {
 	width: 525px;
@@ -419,7 +464,7 @@ article li p {
 	text-align: left;
 	width: 280px;
 	height: 174px;
-	margin-top: 18px;
+	margin-top: 16px;
 	margin-left: 20px;
 	letter-spacing: 0.0249em;
 	line-height: 1.37em;
@@ -481,7 +526,7 @@ article li p {
 	font-family: 'SegoeWP-light';
 	font-size: 27px;
 	position: absolute;
-	top: 11px;
+	top: 9px;
 	right: 17px;
 }
 #plusec {
@@ -509,7 +554,7 @@ article li p {
 	color: #ffffff;
 	font-size: 48px;
 	font-family: 'SegoeUI-bold';
-	margin: 0 auto;
+	margin: -1px auto;
 	letter-spacing: 0.05em;
 }
 #april {
@@ -521,20 +566,6 @@ article li p {
 	color: #b26529;
 	margin: -8px 32px;
 	letter-spacing: 0.03em;
-}
-#slider_bg {
-	width: 896px;
-	height: 15px;
-	top: 15px;
-	margin-top: 29px;
-	margin-left: 213px;
-	position: relative;
-}
-#slider {
-	width: 197px;
-	height: 15px;
-	margin-left: 459px;
-	z-index: 5;
 }
 footer {
 	background: url(assets/footerbg.png);

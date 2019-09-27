@@ -735,9 +735,14 @@ body {
 .content div{
 	width: 640px;
 }
+.wrapper {
+	background-image: url(assets/img/bg1.png);
+	padding: 0;
+	height: 327px;
+}
 header {
+	height: 62px;
 	width: 640px;
-	height: 389px;
 }
 .top {
 	height: 62px;
@@ -830,9 +835,13 @@ nav li {
 #button_right {
 	display: none;
 }
-.player div {
+.player {
 	width: 640px;
 	height: 327px;
+	padding-bottom: -200px;
+}
+.slogan {
+	display: none;
 }
 .player video {
 	display: none;
@@ -845,7 +854,7 @@ nav li {
 	display: none;
 }
 main {
-	height: 659px;
+	height: 327px;
 	width: 640px;
 	box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.83);
 }
@@ -854,6 +863,7 @@ section {
 	height: 174px;
 	box-shadow: -4px -4px rgba(236, 236, 233, 0.6),
 				-9px -9px rgba(236, 236, 233, 0.3);
+	margin-top: 63px;
 }
 section ul {
 	width: 640px;

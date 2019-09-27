@@ -33,7 +33,7 @@
   }
   @font-face {
     font-family: 'PTSans-Regular';
-    src: url(assets/fonts/ptsans/PTSans-Regular.woff2) format('woff2');
+    src: url(assets/fonts/PTSans-Regular.woff2) format('woff2');
     font-style: normal;
 	font-weight: normal;
   }
@@ -45,7 +45,7 @@
   }
   @font-face {
     font-family: 'OpenSans';
-    src: url(assets/fonts/OpenSans-Regular.ttf) format('truetype');
+    src: url(assets/fonts/OpenSans.woff2) format('woff2');
     font-style: normal;
 	font-weight: normal;
   }
@@ -63,7 +63,7 @@
   }
   @font-face {
     font-family: 'PTSans narrow-bold';
-    src: url(assets/fonts/ptsans/PTSans-NarrowBold.woff2) format('woff2');
+    src: url(assets/fonts/PTSans-NarrowBold.woff2) format('woff2');
     font-style: normal;
 	font-weight: normal;
   }
@@ -87,7 +87,7 @@ body {
 	display: flex;
 }
 header {
-	background-image: url(assets/bg1.png);
+	background-image: url(assets/img/bg1.png);
 	width: 1300px;
 	height: 566px;
 }
@@ -122,7 +122,7 @@ header {
 #logoimgsec {
 	height: 80px;
 	width: 80px;
-	z-index: 2;
+	z-index: 1;
 	top: -87px;
 }
 #logo h1 {
@@ -138,7 +138,7 @@ header {
 	letter-spacing: 0.03em;
 }
 nav {
-	background: url(assets/navbg.png);
+	background: url(assets/img/navbg.png);
 	height: 41px;
 	width: 453px;
 	margin-top: 71px;
@@ -288,7 +288,7 @@ nav a:hover {
 	width: 13px;
 	height: 19px;
 	float: left;
-	background: url(assets/button_bg.png);
+	background: #c9a60d;
 	padding: 19px 11px 19px 8px;
 	margin-top: -196px;
 }
@@ -296,19 +296,19 @@ nav a:hover {
 	width: 13px;
 	height: 19px;
 	float: right;
-	background: url(assets/button_bg.png);
+	background: #c9a60d;
 	padding: 19px 8px 19px 11px;
 	margin-top: -196px;
 }
 #button_right:hover {
 	width: 16px;
-	transition: all 0.9s ease;
-	border-radius: 25px;
+	transition: all 0.3s ease;
+	border-radius: 35px;
 }
 #button_left:hover {
 	width: 16px;
 	transition: all 0.3s ease;
-	border-radius: 25px;
+	border-radius: 35px;
 }
 main {
 	height: 720px;
@@ -318,7 +318,7 @@ main {
 section {
 	height: 212px;
 	width: 1300px;
-	background-image: url(assets/sectionbg.png);
+	background-image: url(assets/img/sectionbg.png);
 	box-shadow: 0px -2px 5px -1px #4c4c4c;
 }
 section a {
@@ -387,7 +387,7 @@ section li a{
 	margin-left: -26px;
 }
 article {
-	background: url(assets/bgyellow.png);
+	background: url(assets/img/bgyellow.png);
 	height: 509px;
 	text-align: left;
 	box-shadow: inset 0 2px 5px -1px #4c4c4c;
@@ -408,7 +408,7 @@ input[type='range'] {
 	width: 896px; 
 	height: 15px; 
 	-webkit-appearance: none;
-	background: url(assets/slider_bg.png);
+	background: url(assets/img/slider_bg.png);
 	top: -2px;
 	left: -2px;
 }
@@ -422,7 +422,7 @@ input[type='range']::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	height: 15px;
 	cursor: ew-resize;
-	background: url(assets/slider.png);
+	background: url(assets/img/slider.png);
 }
 input[type="range"]::-moz-range-progress {
 	background-color: rgba(250, 231, 152, 0.4);
@@ -493,23 +493,21 @@ article li p {
 	transform: scale(1.3);
 }
 .text {
-	background: url(assets/sectiontextbg.png);
+	background: url(assets/img/sectiontextbg.png);
 	width: 341px;
 	height: 233px;
 	justify-content: space-around;
 }
 .bird {
-	background-image: url(assets/birdbg.png);
+	background-image: url(assets/img/birdbg.png);
 	width: 329px;
 	height: 233px;
 	align-items: center;
 	margin-left: 34px;
 }
 .bird img {
-	width: 163px;
-	height: 133px;
-	margin-top: 19px;
-	margin-left: 53px;
+	margin-top: 38px;
+	margin-left: 49px;
 }
 .vid img {
 	width: 315px;
@@ -577,7 +575,7 @@ article li p {
 	letter-spacing: 0.03em;
 }
 footer {
-	background: url(assets/footerbg.png);
+	background: url(assets/img/footerbg.png);
 	height: 563px;
 	display: flex;
 	flex-direction: column;
@@ -633,7 +631,7 @@ footer p {
 	text-align: left;
 	display: flex;
 	flex-direction: column;
-	list-style-image: url(assets/footerlistyle.png);
+	list-style-image: url(assets/img/footerliststyle.svg);
 }
 #picslist li {
 	display: flex;
@@ -679,7 +677,7 @@ footer p {
 	margin-top: 25px;
 }
 .underfooter { 
-	background: url(assets/underfootbg.png);
+	background: url(assets/img/underfootbg.png);
 	height: 64px;
 	box-shadow: inset 0 2px 5px -1px black;
 	display: flex;
@@ -736,7 +734,7 @@ header {
 	height: 62px;
 	width: 300px;
 	position: relative;
-	background: url(assets/mobilelogobg.png) no-repeat;
+	background: url(assets/img/mobilelogobg.png) no-repeat;
 }
 #logo ul {
 	width: 183px;
@@ -813,7 +811,7 @@ nav li {
 	width: 149px;
 }
 .center {
-	background: url(assets/mobileplayer.png) no-repeat;
+	background: url(assets/img/mobileplayer.png) no-repeat;
 	width: 640px;
 	height: 327px;
 }
@@ -958,7 +956,7 @@ article ul {
 }
 .bubbletext {
 	color: rgba(143, 142, 142, 255);
-	background: url(assets/bubble.svg) no-repeat;
+	background: url(assets/img/bubble.svg) no-repeat;
 	height: 42px;
 	width: 284px;
 	display: flex;

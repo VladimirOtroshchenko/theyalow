@@ -86,10 +86,17 @@ body {
 	margin: 0 auto;
 	display: flex;
 }
-header {
+.wrapper {
 	background-image: url(assets/img/bg1.png);
 	width: 1300px;
 	height: 566px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 140px;
+}
+header {
+	height: 112px;
+	width: 1300px;
 }
 .top {
 	height: 112px;
@@ -291,6 +298,7 @@ nav a:hover {
 	background: #c9a60d;
 	padding: 19px 11px 19px 8px;
 	margin-top: -196px;
+	margin-left: -140px;
 }
 #button_right {
 	width: 13px;
@@ -299,6 +307,7 @@ nav a:hover {
 	background: #c9a60d;
 	padding: 19px 8px 19px 11px;
 	margin-top: -196px;
+	margin-right: -140px;
 }
 #button_right:hover {
 	width: 16px;

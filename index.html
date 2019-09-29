@@ -6,101 +6,131 @@
     <link href="styles.css" rel="stylesheet"/>
   </head>
   <body>
-    <div class='content'>
-      <div class='wrapper'>
-        <header>
-          <div class='top'>
-            <div id='logo'>
-              <ul>
-                <li id='logopic'><img src='assets/img/logostar.png' id='logoimgfir'/>
-                <img src='assets/img/logostar2.png' id='logoimgsec'/> </li>
-                <li><h1>Theyalow</h1></li>
-              </ul>
-            </div>
-            <nav>
-              <ul>
-                <li id='li_about'><a href='#'><img src='assets/img/about_us.svg' id='about'/>About us</a></li>
-                <li id='li_services'><a href='#'><img src='assets/img/services.svg' id='serv'/>Services</a></li>
-                <li id='li_contact'><a href='#'><img src='assets/img/contact.svg' id='cont'/>Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-        <main>
-          <div class='center'>
-            <div class='player'>
-              <video src='#' height='327px' width='549px' poster='assets/img/playerbg.png' id='desktopplayer'>
-              </video>
-              <video src='#' height='327px' width='640px' poster='assets/img/mobileplayer.png' id='mobileplayer'>
-              </video>
-                <img src='assets/img/triangle_play.svg' id='triangleplay'/>
-                <img src='assets/img/polosapr.png' id='polosapr'/>
-                <img src='assets/img/play_bg.svg' id='play'/>
-                <img src='assets/img/polosapr2.png' id='polosapr2'/>
-                <img src='assets/img/sq.png' id='sq'/>
-                <img src='assets/img/sqtr.png' id='sqtr'/>
-                <img src='assets/img/volume.svg' id='vol'/>
-            </div>
-            <div class = 'slogan'>
-              <h1><span id='thecool'>the cool</span><br>the minimal</h1>
-            </div>
-            </div>
-          <a href='#'><img src='assets/img/button_left.svg' id='button_left'></a>
-          <a href='#'><img src='assets/img/button_right.svg' id='button_right'></a>
+    <div class='container'>
+      <div class='main_background'>
+        <div class='content'>
+            <header>
+              <div class='logo'>
+                <img src='assets/img/logostar.png'/>
+                <img src='assets/img/logostar2.png'/>
+                <p>Theyalow</p>
+              </div>
+              <nav>
+                <ul>
+                  <li><a href='#'><img src='assets/img/about_us.svg'/>About us</a></li>
+                  <li><a href='#'><img src='assets/img/services.svg'/>Services</a></li>
+                  <li><a href='#'><img src='assets/img/contact.svg'/>Contact</a></li>
+                </ul>
+              </nav>
+            </header>
+            <main>
+              <section class='video_and_slogan'>
+                <div class='player'>
+                  <video src='#' height='327px' width='549px' poster='assets/img/playerbg.png'>
+                  </video>
+                  <video src='#' height='327px' width='640px' poster='assets/img/mobileplayer.png'>
+                  </video>
+                    <img src='assets/img/triangle_play.svg'/>
+                    <img src='assets/img/polosapr.png'/>
+                    <img src='assets/img/play_bg.svg'/>
+                    <img src='assets/img/polosapr2.png'/>
+                    <img src='assets/img/sq.png'/>
+                    <img src='assets/img/sqtr.png'/>
+                    <img src='assets/img/volume.svg'/>
+                    <img src='assets/img/player_yellow.png'/>
+                    <img src='assets/img/mobile_player_yellow.png'/>
+                </div>
+                <div class = 'slogan'>
+                  <h1><span>the cool</span><br>the minimal</h1>
+                </div>
+              </section>
+            <a href='#'><img src='assets/img/button_left.svg' class='left_button'></a>
+            <a href='#'><img src='assets/img/button_right.svg' class='right_button'></a>
+        </div>
       </div>
-        <section>
-          <ul>
-            <li><a href='#'><img src='assets/img/better.svg' id='better'/><span id='bettertxt'>better design</span></a></li>
-            <li><a href='#'><img src='assets/img/customise.svg' id='cust'/><span id='custtxt'>customise</span></a></li>
-            <li><a href='#'><img src='assets/img/itsfree.svg' id='its'/><span id='itstxt'>its free</span></a></li>
-          </ul>
-        </section>
-        <article>
-          <p id='arttitle'>lorem ipsum dolor sit amet</p>
-          <ul>
-            <li class ='text'><p>Lorem ipsum dolor sit amet, consecte<span id='brbr'>-<br></span>tur adipisicing elit, sed do eiusmod tempor inci<span id='br'>-<br></span>didunt 
-              ut</p><a href='#'><img src='assets/img/plus.svg' id='pplus'/></a></li>
-            <li class='vid'><video src='#' height='232px' 
-                  width='315px' poster='assets/img/center.png'>
-                      </video><img src='assets/img/triangle_play.svg' id='triplay'/><img src='assets/img/play_bg.svg' id='roundpl'/></li>
-            <li class='bird'><span id='twentytwo'>22</span><img src='assets/img/bird.svg'/><a href='#'><img src='assets/img/plus.svg' id='plusec'/></a></li>
-            <li class='bubbleblock'><span class='bubbletext' id='firststring'>Daily Mobile UI Design Inspiration #1<br>
-              via @cssauthor</span><br><span class='bubbletext' id='secondstring'>Daily Mobile UI Design Inspiration #1<br> 
-              via @cssauthor</span><br><span class='bubbletext'id='thirdstring'>Daily Mobile UI Design Inspiration #1<br> 
-              via @cssauthor</span><input type='text'/><input type='button' value='Tweet'/></li>
-          </ul>
-          <p class='date'><span id='twentyfive'>25</span><span id='april'>april</span></p>
-          <div class='range_container'>
-            <input type='range' disabled/>
-        </div>
-        </article>
-      </main>
-      <footer>
-          <p>Lorem ipsum dolor sit amet</p>
-        <div id='footmain'>
-          <div id='picslist'>
-            <ul>
-              <li><img src='assets/img/footerbig.png'></li>
-              <li><img src='assets/img/footermed.png'></li>
-              <li id='phone'><img src='assets/img/footerlow.png'></li>
-            </ul>
-            <span id='itsfree'>its 100% free</span>
+      <div class='three_columns_bg'>
+          <div class='content'>
+            <section class='three_columns'>
+              <figure>
+                <a href='#'>
+                  <img src='assets/img/better.svg' alt=''>
+                  <figcaption>better design</figcaption>
+                </a>
+              </figure>
+              <figure>
+                <a href='#'>
+                  <img src='assets/img/customise.svg' alt=''>
+                  <figcaption>customise</figcaption>
+                </a>
+              </figure>
+              <figure>
+                <a href='#'>
+                  <img src='assets/img/itsfree.svg' alt=''>
+                  <figcaption>its free</figcaption>
+                </a>
+              </figure>
+            </section>
           </div>
-          <div id='list'>
-            <ul>
-                <li id='stringfirst'>Sed ut perspiciatis unde omnis</li>
-                <li id='stringsecond'>Lorem ipsum dolor sit amet, con-<br>sectetur adipisicing </li>
-                <li id='stringthird'>Sed ut perspiciatis unde omnis</li>
-                <li id='stringfourth'>Lorem ipsum dolor sit amet, con-<br>sectetur adipisicing </li>
-              </ul>
+      </div>
+      <div class='article_bg'>
+          <div class='content'>
+            <article>
+              <p>lorem ipsum dolor sit amet</p>
+              <div class='text_video_bird'>
+                <p>Lorem ipsum dolor sit amet, consecte<span>-<br></span>tur adipisicing elit, sed do eiusmod tempor inci<span>-<br></span>didunt 
+                  ut<a href='#'><img src='assets/img/plus.svg'/></a></p>
+                <div class='video'>
+                  <video src='#' height='232px' width='315px' poster='assets/img/center.png'></video>
+                  <img src='assets/img/triangle_play.svg'/><img src='assets/img/play_bg.svg'/>
+                </div>
+                <figure>
+                  <img src='assets/img/bird.svg'><span>22</span>
+                  <a href='#'><img src='assets/img/plus.svg'/></a>
+                </figure>
+                <div class='bubble_messages'><span>Daily Mobile UI Design Inspiration #1<br>
+                  via @cssauthor</span><br><span>Daily Mobile UI Design Inspiration #1<br> 
+                  via @cssauthor</span><br><span>Daily Mobile UI Design Inspiration #1<br> 
+                  via @cssauthor</span>
+                  <input type='text'/><input type='button' value='Tweet'/>
+                </div>
+                <p class='date'>25<span>april</span></p>
+                <div class='range_container'>
+                  <input type='range' disabled/>
+                </div>
+              </div>
+            </article>
+          </main>
+        </div>
+      </div>
+      <div class='devices_list_bg'>
+          <div class='content'>  
+            <section class='devices_list'>
+              <p>Lorem ipsum dolor sit amet</p>
+              <div class='devices'>
+                <img src='assets/img/footerbig.png'>
+                <img src='assets/img/footermed.png'>
+                <img src='assets/img/footerlow.png'>
+                <span>its 100% free</span>
+                <ul>
+                  <li>Sed ut perspiciatis unde omnis</li>
+                  <li>Lorem ipsum dolor sit amet, con-<br>sectetur adipisicing </li>
+                  <li>Sed ut perspiciatis unde omnis</li>
+                  <li>Lorem ipsum dolor sit amet, con-<br>sectetur adipisicing </li>
+                </ul>
+              </div>
+            </section>
           </div>
         </div>
-        <div class='underfooter'>
-          <img src='assets/img/footlogo1.png' id='ffootlogo'/>
-          <img src='assets/img/footlogo2.png' id='sfootlogo'/>
-          <p>theyalow</p>
+        <div class='footer_bg'>
+            <div class='content'> 
+              <footer>
+                <img src='assets/img/footlogo1.png'/>
+                <img src='assets/img/footlogo2.png'/>
+                <p>theyalow</p>
+              </footer>
+            </div>
         </div>
-      </footer>
+      </div>
     </div>
   </body>
   
